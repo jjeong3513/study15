@@ -1,0 +1,51 @@
+#container{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    min-height: 300px; /*최소 300px*/
+    margin: auto;
+}
+#contentBox h2{
+    text-align: center;
+    padding: 1rem;
+}
+.pd-card{
+    width: 250px;
+    height: 400px;
+    border: 1px solid #787;
+}
+
+.pd-card .img{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(217, 211, 211);
+    margin-bottom: 1rem;
+}
+.pd-card dl{
+    padding: 0.5rem;
+}
+.pd-card dt{
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+.pd-card dd{
+    font-weight: 0.8rem;
+}
+.btn-area{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+.btn-area button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background-color: rgb(221, 103, 186);
+    color: #fff;
+}
+
+.btn-area span{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}

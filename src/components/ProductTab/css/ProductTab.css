@@ -1,0 +1,51 @@
+.product-tab{
+    width: 100%;
+    max-width: 1200px;
+    margin: 3.125rem auto;
+}
+.tab-btn{
+    display: flex;
+    font-size: 1rem;
+    border-top: 1px solid rgb(184, 183, 183);
+    border-bottom: 1px solid rgb(227, 226, 226);
+}
+
+.tab-btn .btn{
+    padding: 0.5rem 0.875rem;
+    border: none;
+    background-color: #fff;
+}
+.tab-btn .btn.active{
+    margin-top: -1px; /*선을 칸에 딱 맞춰주기 위해(이걸 안해주면 선이 칸보다 조금 아래에 있음) */
+    margin-bottom: -1px;
+   border-top:1px solid rgb(255, 12, 84);
+   border-bottom: 1px solid rgb(255, 11, 84);
+   color: rgb(255, 11, 84);
+}
+
+.tab-list .brandTitle{
+    font-size: 1.25rem;
+    color: rgb(234, 124, 124);
+    padding: 1rem 3.125rem;
+    text-transform: capitalize; /*첫글자 대문자*/
+}
+.tab-list .tab{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.tab-list .tab li{
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.tab-list .tab li img{
+    height: 150px;
+    width: auto;
+    max-width: 200px;
+}
+

@@ -1,0 +1,15 @@
+
+#headerArea{
+    width: 100%;
+    height: 80px;
+    background-color: #f27244;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerArea h1{
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 1rem;
+}
